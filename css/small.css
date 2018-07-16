@@ -11,3 +11,7 @@ html { -webkit-text-size-adjust: none}
 
 /*-----------apply a natural box layout model to all elements -------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#logoHead, #logoFoot {
+    float: left;
+}
