@@ -15,3 +15,14 @@ html { -webkit-text-size-adjust: none}
 #logoHead, #logoFoot {
     float: left;
 }
+
+nav button {
+    position: absolute;
+    top: .5rem;
+    right: 10%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -5,9 +5,9 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Dosis', sans-serif;
 font-family: 'Cutive Mono', monospace;
 */
-
-@media only screen and (min-width: 1141px){
  
+@media only screen and (min-width: 1000px) {   
 
 
-}  /* end of media query */
+
+} /* end of media query */

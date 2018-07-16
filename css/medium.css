@@ -6,7 +6,8 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Cutive Mono', monospace;
 */
 
-@media only screen and (min-width: 37.5em) {   
-    
+@media only screen and (min-width: 700px) {   
+
+
 
 } /* end of media query */
