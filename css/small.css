@@ -1,0 +1,13 @@
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700" rel="stylesheet">
+
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Cutive Mono', monospace;
+*/
+
+/*------Prevents phones from resizing in landscape mode -------*/
+html { -webkit-text-size-adjust: none}
+
+/*-----------apply a natural box layout model to all elements -------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
