@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700" rel="stylesheet">
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700");
 
 /*
 font-family: 'Ubuntu', sans-serif;
@@ -12,17 +12,60 @@ html { -webkit-text-size-adjust: none}
 /*-----------apply a natural box layout model to all elements -------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#logoHead, #logoFoot {
-    float: left;
+nav ul {display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+
+nav ul.show{display: flex;
+            display: -ms-flexbox;}
+nav ul.hide{display: none;}
+        
+
+nav ul li {list-style: none;
+           flex-basis: 100%;
+           -ms-flex: 100%;
+}
+
+.navigation { 
+    background-color: #15aadc;
+    margin:0;
+    padding: 0;
 }
 
 nav button {
     position: absolute;
-    top: .5rem;
-    right: 10%;
+    top: 10%;
+    right: 30%;
+}
+
+
+.navigation li a {
+    font-family: 'Nanum Myeongjo', georgia; serif;
+    text-align: center;
+    text-shadow: .5px .5px 1.5px #c0c0c0;
+    font-size: x-large;
+    display: block;
+    color: #000000;
+    padding: .5rem 0;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    background-color: #b2cfff;
+    color: #143e7f;
+}
+.navigation li a.active {
+    background-color: #2b7cff;
+    color: #B2CFFF;
+}
+
+#logoHead, #logoFoot {
+    float: left;
 }
 
 .content {
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #cfcfcf;
 }

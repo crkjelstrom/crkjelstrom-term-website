@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700" rel="stylesheet">
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700");
 
 /*
 font-family: 'Ubuntu', sans-serif;
@@ -6,8 +6,39 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Cutive Mono', monospace;
 */
 
-@media only screen and (min-width: 700px) {   
+@media only screen and (min-width: 37.5em) {   
 
+nav ul {flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+} 
+    
+nav ul.hide {display: flex;
+    display: -ms-flexbox;
+}
+    
+nav ul li {
+    -ms-flex: 1 0 auto;
+}
+    
+nav button {display: none;}
+    nav ul.hide{display: block}
+    
+.navigation {
+    margin-left: -18px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #15aadc;
+}
 
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    color: white;
+    font-size: 23px;
+    padding: 13px 13px;
+    text-decoration: none;
+}
 
 } /* end of media query */
