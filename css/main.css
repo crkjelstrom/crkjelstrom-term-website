@@ -95,6 +95,14 @@ nav button {
     width: 300px;
 }
 
+#repair1, #repair2, #repair3 {
+    width: 300px;
+}
+
+#adventure1, #adventure2, #adventure3 {
+    width: 300px;
+}
+
 #saleSection {
     background-color: #ffffff;
 }
