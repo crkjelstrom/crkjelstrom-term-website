@@ -7,7 +7,7 @@
     <title>The Mountain Spoke - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/normalize.css" rel="stylesheet" >
-    <link href="css/small.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet" >
     <link href="css/medium.css" rel="stylesheet" >
     <link href="css/large.css" rel="stylesheet" >
 </head>
@@ -16,19 +16,15 @@
         
 <div class="content">
             
-    <header id="bannerheader">
-        <img src="images/LARGE-banner.jpg" alt="headerbanner"
+    <header>
+        <img id="bannerheader" src="images/LARGE-banner.jpg" alt="headerbanner"
             srcset="images/SMALL-banner.jpg 580w,
                     images/MEDIUM-banner.jpg 750w,
                     images/LARGE-banner.jpg 1000w"
             sizes="(max-width: 580px) 540px,
                 (max-width: 900px) 710px,
                 1000px" />
-        <ul id="businessHours" class="hide">
-            <li>Mon - Fri: 10 am - 7 pm</li>
-            <li>Sat: 10 am - 6 pm</li>
-            <li>Sun: CLOSED</li>
-        </ul> 
+            <span id="businessHours" class="hide">Mon - Fri: 10 am - 7 pm | Sat: 10 am - 6 pm | Sun: CLOSED</span>
     </header>
     
     <nav class="navigation">
@@ -44,7 +40,51 @@
     </nav>
         
     <main>
+        <img id="bikeShop" src="images/bike-shop-1.jpg" alt="bike shop">
+        
+        <div id="pageSection">
+            <div class="row">
+                <div class="column">
+                    <a href="shop.html"><img id="bike1" src="images/bike-1.jpg" alt="bikes and parts"></a>
+                </div>
+                <div class="column">
+                    <img id="bike2" src="images/bike-2.jpg" alt="repairs">
+                </div>
+                <div class="column">
+                    <img id="bike3" src="images/bike-3.jpg" alt="tours">
+                </div>
+            </div>
+        </div>
+        
+        <div id="saleSection">
+            <div class="row">
+                <div class="column">
+                    <img id="sale1" src="images/shop-bike-1.jpg" alt="bike sale 1">
+                </div>
+                <div class="column">
+                    <img id="sale2" src="images/shop-bike-2.jpg" alt="bike sale 2">
+                </div>
+                <div class="column">
+                    <img id="sale3" src="images/shop-bike-3.jpg" alt="bike sale 3">
+                </div>
+            </div>
+        </div>
+        
+        <div id="mapSection">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="750" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=3950%20valley%20commons%20dr%2C%20bozeman%20mt&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/google-maps/"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mapAdjecent">
+            <h3>The Mountain Spoke</h3>
+            <p>3950 Valley Commons Dr.
+            <br> Bozeman, MT 59715</p>
             
+            <p>Located close to the Ridge Athletic Clubs and Lewis and Bark Dog Park. Easy access to and from I-191 which will take you wherever you need to go for your next biking adventure!</p>
+        </div>
     </main>
         
     <footer id="bannerfooter">

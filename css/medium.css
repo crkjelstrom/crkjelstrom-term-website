@@ -12,7 +12,8 @@ nav ul {flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
 } 
     
-nav ul.hide {display: flex;
+nav ul.hide {
+    display: flex;
     display: -ms-flexbox;
 }
     
@@ -20,14 +21,10 @@ nav ul li {
     -ms-flex: 1 0 auto;
 }
     
-nav button {display: none;}
-    nav ul.hide{display: block}
-    
 .navigation {
     margin-left: -18px;
     padding: 0;
     overflow: hidden;
-    background-color: #15aadc;
 }
 
 .navigation li {

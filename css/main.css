@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis:500|Ubuntu:700");
+
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Cutive Mono', monospace;
+*/
+
+/*
+color: #ffffff;      white
+color: #1c1c1c;      dark grey
+color: #393939;      medium grey
+color: #c0c0c0;      light grey
+color: #ef8846;      orange
+color: #96cce7;      blue
+*/
+
+/*------Prevents phones from resizing in landscape mode -------*/
+html { -webkit-text-size-adjust: none}
+
+/*-----------apply a natural box layout model to all elements -------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav ul {display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+
+nav ul.show{display: flex;
+            display: -ms-flexbox;}
+nav ul.hide{display: none;}
+        
+
+nav ul li {list-style: none;
+           flex-basis: 100%;
+           -ms-flex: 100%;
+}
+
+.navigation { 
+    right: 220px;
+    top: 158px;
+    position: fixed;
+}
+
+#businessHours {
+    right: 235px;
+    top: 225px;
+    position: fixed;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav button {
+    position: fixed;
+    right: 100px;
+    top: 60px;
+}
+
+.navigation li a {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    display: block;
+    color: #ffffff;
+    padding: .5rem 0;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    background-color: #ef8846;
+    color: #1c1c1c;
+}
+.navigation li a.active {
+    background-color: #96cce7;
+    color: #ffffff;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #cfcfcf;
+}
+
+#bannerheader {
+    align-self: center;
+    top: 0px;
+    position: fixed;
+}
+
+#bike1, #bike2, #bike3 {
+    width: 300px;
+}
+
+#sale1, #sale2, #sale3 {
+    width: 300px;
+}
+
+#saleSection {
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 15px 0px 15px 15px;
+    width: 100%;
+}
+
+#mapSection {
+    padding: 15px 0px 15px 15px;
+}
+
+#mapAdjecent {
+    width: 350px;
+    float: right;
+    margin-top: -500px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mapAdjecent p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+.mapouter {
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 600px;
+}
+
+#space {
+    height: 259px;
+}
