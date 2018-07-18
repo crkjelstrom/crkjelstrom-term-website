@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The sales page on The Mountain Spoke website.">
+    <title>The Mountain Spoke - Shop Bikes and Parts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet" >
+    <link href="css/medium.css" rel="stylesheet" >
+    <link href="css/large.css" rel="stylesheet" >
+</head>
+    
+<body>
+        
+<div class="content">
+            
+    <header>
+        <img id="bannerheader" src="images/LARGE-banner.jpg" alt="headerbanner"
+            srcset="images/SMALL-banner.jpg 580w,
+                    images/MEDIUM-banner.jpg 750w,
+                    images/LARGE-banner.jpg 1000w"
+            sizes="(max-width: 580px) 540px,
+                (max-width: 900px) 710px,
+                1000px" />
+            <span id="businessHours" class="hide">Mon - Fri: 10 am - 7 pm | Sat: 10 am - 6 pm | Sun: CLOSED</span>
+    </header>
+    
+    <nav class="navigation">
+        <button onclick="myFunction()">&#9776;</button>
+        <ul id="primaryNavigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventures.html">Adventure Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul> 
+    </nav>
+        
+    <main>
+        
+        <div id="space"></div>
+
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p id="contact">Swing by to talk to the staff, or leave us a message:</p>
+            </div>
+            <div class="row">
+            <div class="column">
+            <div class="column">
+                <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+                </form>
+            </div>
+            </div>
+            </div>
+        </div>
+        
+        </main>
+        
+    <footer id="bannerfooter">
+            
+        <img src="images/LARGE-footer.jpg" alt="footerbanner"
+            srcset="images/SMALL-footer.jpg 580w,
+                    images/MEDIUM-footer.jpg 750w,
+                    images/LARGE-footer.jpg 1000w"
+            sizes="(max-width: 580px) 540px,
+                    (max-width: 900px) 710px,
+                    1000px" />
+    </footer>
+        
+    <script type="text/javascript" src="js/hamburger.js" defer></script>
+    
+</div>
+        
+</body>
+    
+</html>
