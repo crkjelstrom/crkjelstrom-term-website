@@ -114,6 +114,23 @@ nav button {
     position: static;
 }
 
+footer a:hover {
+    background-color: #393939;
+    color: #1c1c1c;
+}
+
+footer a:visited {
+    color: #ef8846;
+}
+
+footer a:link {
+    color: #96cce7;
+}
+
+footer a {
+    text-decoration: none;
+}
+
 #footLocation, #footMoreInfo {
     color: #ffffff;
     font-family: 'Dosis', sans-serif;
@@ -181,6 +198,23 @@ nav button {
     float: right;
     font-family: 'Dosis', sans-serif;
     font-size: 22px;
+}
+
+main a:hover {
+    background-color: #1c1c1c;
+    color: #ef8846;
+}
+
+main a:visited {
+    color: #ef8846;
+}
+
+main a {
+    text-decoration: none;
+}
+
+#youtubeVideo {
+    margin: 0px 0px 0px 180px;
 }
 
 .rightColumn p {
@@ -257,7 +291,7 @@ nav button {
 }
 
 #mapSection {
-    padding: 15px 0px 15px 15px;
+    padding: 30px 0px 15px 15px;
 }
 
 #mapAdjecent {
