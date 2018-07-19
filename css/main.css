@@ -165,6 +165,11 @@ nav button {
     font-size: 26px;
 }
 
+#listBold {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #event1, #event2, #event3 {
     width: 450px;
     padding: 15px 0px 15px 15px;
@@ -190,6 +195,11 @@ nav button {
 #pageSection {
     font-family: 'Dosis', sans-serif;
     padding-right: 10px;
+}
+
+#pageSection ul li {
+    list-style: none;
+    margin-left: -40px;
 }
 
 #rcorners1 {
