@@ -192,7 +192,7 @@ nav button {
     background-color: #ffffff;
 }
 
-#pageSection {
+#pageSection, #pageSection2 {
     font-family: 'Dosis', sans-serif;
     padding-right: 10px;
 }
