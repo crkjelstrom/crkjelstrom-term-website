@@ -205,6 +205,10 @@ main a:hover {
     color: #ef8846;
 }
 
+#activePage {
+    color: #96cce7;
+}
+
 main a:visited {
     color: #ef8846;
 }
