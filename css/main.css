@@ -20,6 +20,19 @@ html { -webkit-text-size-adjust: none}
 /*-----------apply a natural box layout model to all elements -------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
 
+#signup {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+#thankyou {
+    margin: 0px 0px 0px 175px;
+}
+
 nav ul {
     display: flex;
     display: -ms-flexbox;
@@ -333,6 +346,11 @@ h3 {
 }
 
 /* Style inputs */
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px; 
+}
+
 h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
@@ -442,7 +460,7 @@ button:hover {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.signupbtn {
   float: left;
   width: 50%;
 }
